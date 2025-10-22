@@ -1,0 +1,24 @@
+{
+  "name": "robot_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kollcibe05-creator/robot_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kollcibe05-creator/robot_api/issues"
+  },
+  "homepage": "https://github.com/kollcibe05-creator/robot_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
