@@ -1,7 +1,7 @@
 {
   "name": "robot_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple JSON API using json-server and lowdb",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/kollcibe05-creator/robot_api#readme",
   "dependencies": {
-    "json-server":  "0.16.3"
-  }, 
+    "json-server": "0.16.3",
+    "lowdb": "1.0.0"
+  },
   "engines": {
-    "node" : "16.x"
+    "node": "18.x"
   }
-
 }
