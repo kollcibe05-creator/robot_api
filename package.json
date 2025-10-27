@@ -21,9 +21,9 @@
   "homepage": "https://github.com/kollcibe05-creator/robot_api#readme",
   "dependencies": {
     "json-server": "0.16.3",
-    "lowdb": "1.0.0"
+    "lowdb": "^1.0.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   }
 }
