@@ -1,8 +1,15 @@
 // index.js
 
-const { create, router: createRouter, defaults } = require('json-server');
+import { create, router as createRouter, defaults } from 'json-server';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// ESM equivalent of __dirname (needed for file paths)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const server = create();
-const router = createRouter('db.json'); // Path to your data file
+const router = createRouter(path.join(__dirname, 'db.json')); // Robust path to db.json
 const middlewares = defaults();
 
 // Get the port from Render's environment variable (or use 3000 locally)
@@ -12,5 +19,5 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(port, () => {
-  console.log(`JSON Server v1.0.0+ is running on port ${port}`);
+  console.log(`JSON Server running as ES Module on port ${port}`);
 });
