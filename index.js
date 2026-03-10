@@ -1,10 +1,10 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json'); // Path to your data file
+const router = jsonServer.router('db.json'); // Path to data file
 const middlewares = jsonServer.defaults();
 
-// Get the port from Render's environment variable (or use 3000 locally)
-const port = process.env.PORT || 3000;
+
+const port = process.env.PORT || 3000;  // Get the port from Render's environment variable (or use 3000 locally)
 
 server.use(middlewares);
 server.use(router);
