@@ -1,4 +1,4 @@
 - The repository, deployed via [Render](https://render.com), contains a **commonJs** methodology of setting up a JSON file for render.
 - The deployed link: [here!](https://robot-api-o7l1.onrender.com)
 - The detailed documentation of how the setup works have been provided in [this](https://github.com/kollcibe05-creator/POKEMON_API) repository.
-- [LICENSE](LICENSE)
+- [LICENSE](LICENSE.md)
