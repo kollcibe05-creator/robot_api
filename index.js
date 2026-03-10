@@ -1,6 +1,3 @@
-// index.js
-
-// Using require() syntax because package.json is "type": "commonjs"
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json'); // Path to your data file
