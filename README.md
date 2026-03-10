@@ -1,0 +1,2 @@
+- The repository, deployed via [Render](https://render.com), contains a **commonJs** methodology of setting up a JSON file for render.
+- The deployed link: [here](srv-d4usp2uuk2gs7392h8p0) 
